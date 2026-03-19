@@ -1,4 +1,4 @@
-const fetchStreamData = async (streamUrl: any, question: any, controller: any, onChunk: any) => {
+export const fetchStreamData = async (streamUrl: any, question: any, controller: any, onChunk: any) => {
     
     try {
         const res = await fetch(streamUrl, {
@@ -35,8 +35,6 @@ const fetchStreamData = async (streamUrl: any, question: any, controller: any, o
 
         return;
     } catch(err: any) {
-        throw new Error(err.message);
+        console.log(err);
     }
 }
-
-export default fetchStreamData;
