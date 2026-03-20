@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import {fetchStreamData} from'@/components/utils/fetchStream'
+import {fetchStreamData} from'@/api/requestHttpStream'
 import {Message, ReferenceDoc} from '@/types/chat'
 
 const Footer = ({

@@ -21,7 +21,7 @@ const Home = () => {
         <section className="chat-messages">
             { messages.map((msg, idx) => (
             <div 
-                key={msg.id}
+                key={`${msg.id}-${ msg.role ==="user" ? "user" : "assistant" }`}
                 className={`message-row
                 ${ msg.role ==="user" ? "from-user" : "from-assistant" }`
                 }
@@ -43,7 +43,9 @@ const Home = () => {
                           <div className="refs-title">출처문서</div>
                           <div className="refs-list">
                             { msg.references.map((r, idx) => (
-                            <div className="ref-item" key={`${r.uid}-${idx}`}>
+                            <div 
+                                className="ref-item" 
+                                key={`${msg.id}-${r.uid}-${idx}`}>
                                 <div className="ref-main">
                                     <span className="ref-name">{ r.file_name }</span>
                                     <span className="ref-page">p.{ r.page }</span>
@@ -56,7 +58,7 @@ const Home = () => {
                                     title="다운로드"
                                     onClick={(e) => {
                                         e.preventDefault();
-                                        alert("준비중중");
+                                        alert("준비중");
                                     }}
                                 >
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -13,7 +13,9 @@ const MainLayout = () => {
 
     return (
         <div className="app-root">
-            <Sidebar/>
+            <Sidebar
+                setMessages={setMessages}
+            />
             <main className="chat-layout">
                 <Header />
                 <Outlet context={{ 

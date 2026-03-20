@@ -405,7 +405,7 @@ const App: React.FC = () => {
   return (
     <div className="app-root">
       {/* 왼쪽: 대화 목록 사이드바 */}
-      <Sidebar/>
+      {/*<Sidebar/>*/}
 
       {/* 오른쪽: 채팅 영역 */}
       <main className="chat-layout">
