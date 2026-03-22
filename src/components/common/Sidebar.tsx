@@ -13,6 +13,7 @@ const Sidebar = ({
   const [historyList, setHistoryList] = useState<ChatHistory[]>([]);
   const abortRef = useRef<AbortController | null>(null);
 
+  // 최초 기본 실행
   useEffect(() => {
     getChatHistory("");
   }, []);
