@@ -16,9 +16,11 @@ npm run dev</code></pre>
 
 
 # 실행
-+ 질문 작
++ 질문 작성
 <img width="869" height="239" alt="Image" src="https://github.com/user-attachments/assets/bebb1887-f1ea-4be2-b14e-5cd42bd99032" />
 
++ 질문에 대한 답변 응답
+<img width="803" height="403" alt="Image" src="https://github.com/user-attachments/assets/5f6e97af-dead-4571-bee4-7dae9502f086" />
 
 # 기능
 + 질문에 대한 답변 event-stream 응답
