@@ -16,11 +16,15 @@ npm run dev</code></pre>
 
 
 # 실행
-+ 질문 작성
+### 질문 작성
+<div style="border: 2px solid #ccc; display: inline-block; padding: 4px;">
 <img width="869" height="239" alt="Image" src="https://github.com/user-attachments/assets/bebb1887-f1ea-4be2-b14e-5cd42bd99032" />
-
-+ 질문에 대한 답변 응답
+</div>
+### 질문에 대한 답변 응답
 <img width="803" height="403" alt="Image" src="https://github.com/user-attachments/assets/5f6e97af-dead-4571-bee4-7dae9502f086" />
+
+### event-stream response
+<img width="864" height="495" alt="Image" src="https://github.com/user-attachments/assets/6ba34486-15b9-45d7-9ede-c4482130b58e" />
 
 # 기능
 + 질문에 대한 답변 event-stream 응답
