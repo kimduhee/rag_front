@@ -28,6 +28,11 @@ npm run dev</code></pre>
 | <img width="869" height="495" alt="Image" src="https://github.com/user-attachments/assets/6ba34486-15b9-45d7-9ede-c4482130b58e" /> |
 |---------------|
 
+### 채팅 삭제 및 제목 수정
+| <img width="869" height="326" alt="Image" src="https://github.com/user-attachments/assets/4a201a3d-3e5f-474b-8c18-7096f1802b20" /> |
+|---------------|
+
+
 # 기능
 + 질문에 대한 답변 event-stream 응답
 + 채팅 이력 조회 및 상세 메시지 확인
