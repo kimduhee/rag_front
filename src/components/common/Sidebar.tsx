@@ -9,7 +9,7 @@ const Sidebar = ({
 }:{
   setMessages: React.Dispatch<React.SetStateAction<Message[]>>;
 }) => {
-  // 빈영역 클릭시 채팅목록의 메뉴 팝업 닫기를 위함
+  // 빈 영역 클릭시 채팅목록의 메뉴 팝업 닫기를 위함
   const menuRef = useRef<HTMLDivElement | null>(null);
   //채팅목록의 메뉴팝업
   const [openMenuId, setOpenMenuId] = useState<string | null>(null);
@@ -68,7 +68,7 @@ const Sidebar = ({
     if(chatHistory) {
       alert("삭제 성공");
     } else {
-      alert("삭제 실패패");
+      alert("삭제 실패");
     }
 
   }

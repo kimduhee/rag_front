@@ -524,6 +524,15 @@ button {
   border: none;
   color: #666;
   font-size: 18px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  cursor: pointer;
+}
+
+.conversation-wrapper:hover .menu-btn {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 /* 팝업 */
