@@ -44,3 +44,7 @@ export const mapToMessageHistory = (item: any): Message[] => {
 
 export const mapToMessageHistoryList = (items?: any[]): Message[] =>
     items?.flatMap(mapToMessageHistory) ?? [];
+
+export const mapToChatDelete = (item: any) => ({
+    success: item.success,
+})

@@ -1,5 +1,5 @@
 import { fetchData } from '@/api/requestHttp'
-import { mapToChatHistoryList, mapToMessageHistoryList } from '@/mapper/historyMapper'
+import { mapToChatHistoryList, mapToMessageHistoryList, mapToChatDelete } from '@/mapper/historyMapper'
 
 export const getChatHistoryList = async (params: any) => {
 
@@ -19,4 +19,14 @@ export const getMessageHistoryList = async (params: any) => {
 
     const res: any = await fetchData(serviceUrl, params, null);
     return mapToMessageHistoryList(res.messageHistoryList);
+}
+
+export const deleteChatHistory = async (params: any) => {
+
+    const backEndUrl = import.meta.env.VITE_BACK_END_URL as string;
+    const messageUrl = import.meta.env.VITE_CHAT_DELETE_URL as string;
+    const serviceUrl = (backEndUrl + messageUrl) as string;
+
+    const res: any = await fetchData(serviceUrl, params, null);
+    return res.success;
 }
