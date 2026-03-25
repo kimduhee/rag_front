@@ -21,11 +21,10 @@ npm run dev</code></pre>
 |---------------|
 
 ### 질문에 대한 답변 응답
-+ 답변 내용은 markdown 형식으로 응답
-+ 답변의 출처 문서정보 응답
-
 | <img width="869" height="403" alt="Image" src="https://github.com/user-attachments/assets/5f6e97af-dead-4571-bee4-7dae9502f086" /> |
 |---------------|
++ 답변 내용은 markdown 형식으로 응답
++ 답변의 출처 문서정보 응답
 
 ### event-stream response
 | <img width="869" height="495" alt="Image" src="https://github.com/user-attachments/assets/6ba34486-15b9-45d7-9ede-c4482130b58e" /> |
