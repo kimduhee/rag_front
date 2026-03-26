@@ -15,6 +15,12 @@ node -v
 npm run dev</code></pre>
 
 
+# Vite
+React 같은 프런트엔드 프로젝트를 빠르게 개발하고 빌드해 주는 도구
++ Webapck: 전체 번들링 후 실행
++ Vite: 필요한 파일만 즉시 로딩
+
+
 # 실행
 ### 질문 작성
 | <img width="869" height="239" alt="Image" src="https://github.com/user-attachments/assets/bebb1887-f1ea-4be2-b14e-5cd42bd99032" /> |
